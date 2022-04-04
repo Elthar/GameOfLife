@@ -29,10 +29,10 @@ class Field:
             self.a.append([])
             for j in range(self.m):
                 self.a[i].append(0)            
-        #self.a = [[randint(0, 1) for i in range(width)] for j in range(height)]
-        self.a[10][10] = 1
-        self.a[11][10] = 2
-        self.a[12][10] = 1
+        self.a = [[randint(0, 1) for i in range(width)] for j in range(height)]
+#         self.a[10][10] = 1
+#         self.a[11][10] = 2
+#         self.a[12][10] = 1
         self.draw()
     
     def step(self):
